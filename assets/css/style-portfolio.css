@@ -1,0 +1,35 @@
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin: 0 1% 0 1%;
+    border: solid black 2px;
+    padding: 5px 3% 5px 3%;
+
+}
+
+h2 {
+    color:purple;
+}
+
+
+#box1 p {
+border: solid black 2px;
+width: 20%
+}
+
+#box2 {
+
+}
+
+#contact{
+color: blue;
+}
+
+#about {
+
+}
