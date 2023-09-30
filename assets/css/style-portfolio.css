@@ -1,33 +1,77 @@
+nav {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    
 }
 
 nav ul li {
     margin: 0 1% 0 1%;
     border: solid black 2px;
     padding: 5px 3% 5px 3%;
+    
 
 }
+
+h1 {
+    color:darkblue;
+    background-color: darkgray;
+    text-align: center;
+}
+
 
 h2 {
     color:purple;
 }
 
 
-#box1 p {
+
+#box1 p  {
+background-color: darkslategray;
 border: solid black 2px;
-width: 20%
+width: 500px;
+height: 300px;
+padding: 10px;
 }
 
-#box2 {
+#box2 p {
+    background-color: green;
+    border: solid black 2px;
+    width: 500px;
+    height: 300px;
+    padding: 10px; 
+}
+
+
+
+
+
+#contact h2 {
+/* margin-top: 100px; */
+}
+
+
+#contact ul {
+list-style-type: none;
+    color: blue;
+display: flex;
+flex-direction: row;
+justify-content: center;
+/* align-items: flex-end; why doesnt this work */
 
 }
 
-#contact{
-color: blue;
+#contact ul li {
+    margin: 1%;
+
 }
 
 #about {
