@@ -1,7 +1,23 @@
+:root {
+    --dolphin-gray: rgb(130, 151, 135); 
+    --dark-slate-gray: rgb(29, 92, 99);
+    --rainbow-indigo: rgb(37, 59, 89);
+    --dark-vanilla: rgb(201, 191, 175);
+    --twilight-lavender: rgb(125, 79, 105);
+}
+
+
+/* universal */
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* nav bar */
 nav {
-    background-color: brown;
-    color: white;
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
+    color: var(--dark-vanilla);
     padding: 10px;
+
     
 }
 
@@ -14,66 +30,55 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 1% 0 1%;
-    border: solid black 2px;
+    margin: 0 10px 0 10px;
     padding: 5px 3% 5px 3%;
-    
-
 }
+
+/* nameplate */
 
 h1 {
-    color:darkblue;
-    background-color: darkgray;
+    background-color: var(--twilight-lavender);
+    padding: 50px;
     text-align: center;
+    font-size: 40px;
 }
 
+/* main */
 
-h2 {
-    color:purple;
+
+
+
+
+
+
+
+
+/* footer */
+
+footer {
+
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+   /* ^^^^ how to fix this */
 }
 
-
-
-#box1 p  {
-background-color: darkslategray;
-border: solid black 2px;
-width: 500px;
-height: 300px;
-padding: 10px;
+#contact {
+    background-color: var(--dark-slate-gray);
+    text-align: center;
+    padding: 10px;
+    
 }
-
-#box2 p {
-    background-color: green;
-    border: solid black 2px;
-    width: 500px;
-    height: 300px;
-    padding: 10px; 
-}
-
-
-
-
-
-#contact h2 {
-/* margin-top: 100px; */
-}
-
 
 #contact ul {
-list-style-type: none;
-    color: blue;
-display: flex;
-flex-direction: row;
-justify-content: center;
-/* align-items: flex-end; why doesnt this work */
-
+    list-style-type: none;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
 }
 
 #contact ul li {
-    margin: 1%;
-
-}
-
-#about {
-
+    margin: 10px;
 }
