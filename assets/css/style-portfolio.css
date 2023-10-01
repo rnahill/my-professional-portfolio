@@ -45,6 +45,25 @@ h1 {
 
 /* main */
 
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+#about {
+    background-color: var(--rainbow-indigo);
+    color: var(--dark-vanilla);
+    height: 300px;
+    width: 75%;
+}
+
+#work {
+    background-color: var(--dolphin-gray);
+    color: var(--rainbow-indigo);
+    height: 415px;
+    width: 75%;
+}
 
 
 
