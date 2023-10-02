@@ -12,11 +12,16 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+body {
+    background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
+}
+
 /* nav bar */
 nav {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
     color: var(--dark-vanilla);
     padding: 10px;
+    /* width: 100% */
 
     
 }
@@ -68,17 +73,15 @@ main {
 
 
 
-
-
-
-
 /* footer */
 
 footer {
 
-    position: absolute;
-    bottom: 0;
-    width: 99%;
+    /* position: relative; */
+     /* position: absolute;
+    bottom: 0; */
+    /* display: block; */
+    /* width: 100% */
    /* ^^^^ how to fix this */
 }
 
@@ -100,4 +103,30 @@ footer {
 
 #contact ul li {
     margin: 10px;
+}
+
+/* photo */
+
+img {
+max-width: 18%;
+height: auto;
+position: absolute;
+left: 1%;
+top: 30%;
+border: solid black 2px;
+}
+
+/* about */
+ 
+#about {
+    margin: 2% 2% 1% 3%;
+    padding: 1%;
+}
+
+/* #work */
+
+#work {
+    margin: 2% 2% 1% 3%;
+    padding: 1%;
+
 }
