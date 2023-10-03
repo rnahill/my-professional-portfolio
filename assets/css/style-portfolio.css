@@ -75,6 +75,13 @@ main {
 img {
     width: 100%;
     height: auto;
+    border: solid black 2px;
+}
+
+h2 {
+    text-align: center;
+    margin: 2%;
+    
 }
 
 #work {
@@ -106,23 +113,23 @@ img {
 
 /* classes */
 
-
-/* images are repeating */
-
  .notebook-image {
     background-image: url(../../assets/images/notebook.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
 
  .horiseon-image {
     background-image: url(../../assets/images/blue.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
  .coming-soon {
     background-image: url(../../assets/images/coming-soon.jpg);
-    background-size: contain;
+    background-size: cover;
+    background-repeat: no-repeat;
  }
 
 
@@ -131,7 +138,7 @@ img {
 #contact {
     background-color: var(--dark-slate-gray);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     margin: 0 2% 1% 2%;
     
 }
@@ -142,15 +149,33 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 #contact ul li {
     margin: 10px;
 }
 
-/* photo */
+#contact a {
+    color: black;
+}
 
+/* pseudoclasses */
 
+#work div:hover {
+    /* box-shadow: inset 0px 0px 20px var(--dark-vanilla) */
+    box-shadow: 0px 0px 20px var(--rainbow-indigo);
+}
 
+ nav a:active {
+    color: var(--dark-slate-gray);
+}
+
+div a:active {
+    color: var(--rainbow-indigo)
+}
+
+#contact a:active {
+    color: var(--dark-vanilla)
+}
 
