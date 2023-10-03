@@ -1,3 +1,4 @@
+/* theme */
 :root {
     --dolphin-gray: rgb(130, 151, 135); 
     --dark-slate-gray: rgb(29, 92, 99);
@@ -12,6 +13,7 @@
     font-family: 'Libre Baskerville', serif;
 }
 
+/* elements */
 body {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
 }
@@ -21,7 +23,7 @@ nav {
     background-image: url(https://www.toptal.com/designers/subtlepatterns/uploads/repeated-square-dark.png);
     color: var(--dark-vanilla);
     padding: 10px;
-    /* width: 100% */
+    
 
     
 }
@@ -43,6 +45,7 @@ a {
     color: var(--dark-vanilla);
     text-decoration: none;
 }
+
 /* nameplate */
 
 h1 {
@@ -65,7 +68,7 @@ main {
 #about {
     background-color: var(--rainbow-indigo);
     color: var(--dark-vanilla);
-    height: 750px;
+    height: 757px;
     width: 20%;
     margin: 2% 0 2% 2%;
     padding: 1%;
@@ -86,7 +89,7 @@ h2 {
 
 #work {
     background-color: var(--dolphin-gray);
-    height: 750px;
+    height: 757px;
     width: 70%;
     margin: 2% 2% 2% 2%;
     padding: 1%;
@@ -110,28 +113,6 @@ h2 {
     width: 25%;
     border: solid var(--dark-vanilla) 1px;
 }
-
-/* classes */
-
- .notebook-image {
-    background-image: url(../../assets/images/notebook.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-
-
- .horiseon-image {
-    background-image: url(../../assets/images/blue.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-
- .coming-soon {
-    background-image: url(../../assets/images/coming-soon.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
- }
-
 
 /* footer */
 
@@ -178,9 +159,32 @@ div a:active {
     color: var(--dark-vanilla)
 }
 
+/* classes */
+
+.notebook-image {
+    background-image: url(../../assets/images/notebook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+ .horiseon-image {
+    background-image: url(../../assets/images/blue.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ .coming-soon {
+    background-image: url(../../assets/images/coming-soon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+
+
 /* media queries */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
     
     main {
         flex-direction: column;
@@ -192,15 +196,16 @@ div a:active {
     }
     
     #about img {
-        max-width: 80%;
+        max-width: 20%;
         height: auto;
-        margin: 5% 0 0 9%;
+        position: relative;
+        left: 40%;
+        
     }
     
     #work {
       flex-direction: column;
       width: 94%;
-      /* justify-content: space-around; */
       
     }
 
@@ -223,6 +228,7 @@ div a:active {
     #contact ul {
         flex-direction: column;
         text-align: center;
+        padding: 0 0 20px 0;
     }
 
     #contact ul li {
@@ -235,9 +241,29 @@ div a:active {
     }
   }
 
-  @media screen and (max-width: 992px) {
+  
     #work div p {
         width: 40%;
     }  
+    
+    @media screen and (max-width: 768px) {
+        #about img {
+            max-width: 20%;
+            height: auto;
+            position: relative;
+           
     }
+}
+
+
+
+    @media screen and (max-width: 576px) {
+        #about img {
+            max-width: 20%;
+            height: auto;
+            position: relative;
+            
+        }
+    }
+    
   
