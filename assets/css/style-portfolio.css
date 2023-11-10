@@ -180,6 +180,12 @@ div a:active {
     background-repeat: no-repeat;
  }
 
+ .leaflit-image {
+    background-image: url(../../assets/images/leaflit.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
 
 
 /* media queries */
