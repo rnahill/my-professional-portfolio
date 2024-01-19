@@ -174,8 +174,8 @@ div a:active {
     background-repeat: no-repeat;
  }
 
- .coming-soon {
-    background-image: url(../../assets/images/coming-soon.jpg);
+ .gameharbour-image {
+    background-image: url(../../assets/images/game-harbour.png);
     background-size: cover;
     background-repeat: no-repeat;
  }
